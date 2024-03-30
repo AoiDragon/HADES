@@ -16,7 +16,7 @@ This repo provides the source code & data of our paper: [Images are Achilles' He
 
 We propose *HADES*, a novel method for jailbreaking multimodal large language models (MLLMs), to hide and amplify the harmfulness of the malicious intent within the text input, using meticulously crafted images. In this work, we study the harmlessness alignment problem of MLLMs. We conduct a systematic empirical analysis of the harmlessness performance of representative MLLMs and reveal that the image input poses the alignment vulnerability of MLLMs. Experimental results show that HADES can effectively jailbreak existing MLLMs, which achieves an average Attack Success Rate~(ASR) of 90.26\% for LLaVA-1.5 and 71.60\% for Gemini Pro Vision. Our code and data will be publicly released.
 
-![model_figure](.figs/hades.jpg)
+![model_figure](./figs/hades.jpg)
 
 ## Update
 - [4/1] We release the code and datasets of HADES.
