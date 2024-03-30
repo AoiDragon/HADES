@@ -21,7 +21,6 @@ We propose *HADES*, a novel method for jailbreaking multimodal large language mo
 ## Update
 - [4/1] We release the code and datasets of HADES.
 
-
 ## Prepare
 
 HADES is based on LLaVA 1.5 and PixArt. Hence you should download the corresponding weights from the following huggingface space via clone the repository using git-lfs.
