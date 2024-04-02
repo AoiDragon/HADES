@@ -4,7 +4,7 @@ This repo provides the source code & data of our paper: [Images are Achilles' He
 
 ```bibtex
 @article{Li-HADES-2024,
-  author       = {Yifan Li andHangyu Guo and Kun Zhou and Wayne Xin Zhao and Ji{-}Rong Wen},
+  author       = {Yifan Li and Hangyu Guo and Kun Zhou and Wayne Xin Zhao and Ji{-}Rong Wen},
   title        = {Images are Achilles' Heel of Alignment: Exploiting Visual Vulnerabilities for Jailbreaking Multimodal Large Language Models},
   journal      = {CoRR},
   volume       = {abs/2403.09792},
