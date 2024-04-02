@@ -14,7 +14,7 @@ This repo provides the source code & data of our paper: [Images are Achilles' He
 
 ## Overview
 
-We propose *HADES*, a novel method for jailbreaking multimodal large language models (MLLMs), to hide and amplify the harmfulness of the malicious intent within the text input, using meticulously crafted images. In this work, we study the harmlessness alignment problem of MLLMs. We conduct a systematic empirical analysis of the harmlessness performance of representative MLLMs and reveal that the image input poses the alignment vulnerability of MLLMs. Experimental results show that HADES can effectively jailbreak existing MLLMs, which achieves an average Attack Success Rate~(ASR) of 90.26\% for LLaVA-1.5 and 71.60\% for Gemini Pro Vision. Our code and data will be publicly released.
+In this paper, we study the harmlessness alignment problem of multimodal large language models (MLLMs). We conduct a systematic empirical analysis of the harmlessness performance of representative MLLMs and reveal that the image input poses the alignment vulnerability of MLLMs. Inspired by this, we propose a novel jailbreak method named **HADES**, which hides and amplifies the harmfulness of the malicious intent within the text input, using meticulously crafted images. Experimental results show that HADES can effectively jailbreak existing MLLMs, which achieves an average Attack Success Rate (ASR) of 90.26% for LLaVA-1.5 and 71.60% for Gemini Pro Vision.
 
 ![model_figure](./figs/hades.jpg)
 
@@ -23,7 +23,7 @@ We propose *HADES*, a novel method for jailbreaking multimodal large language mo
 
 ## Prepare
 
-HADES is based on LLaVA 1.5 and PixArt. Hence you should download the corresponding weights from the following huggingface space via clone the repository using git-lfs.
+HADES is based on LLaVA 1.5 and PixArt. You can download the corresponding weights from the following huggingface space via clone the repository using git-lfs.
 
 |                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
