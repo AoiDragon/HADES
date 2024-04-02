@@ -56,4 +56,5 @@ bash ./white_box.sh
 
 - [Visual Instruction Tuning](https://github.com/haotian-liu/LLaVA)
 - [Visual-Adversarial-Examples-Jailbreak-Large-Language-Models](https://github.com/Unispac/Visual-Adversarial-Examples-Jailbreak-Large-Language-Models)
+- [BeaverTails](https://github.com/PKU-Alignment/beavertails)
 
