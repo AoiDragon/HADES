@@ -1,6 +1,13 @@
 #!/bin/bash
 
 # Set common environment variables
+# MODE should be one of 'abstract', 'white', 'toxic'
+MODE=$1
+# MODEL should be 'llava', 'gpt4v', or 'gemini'
+MODEL=$2
+# The version of HADES
+BOX_TYPE=$3
+
 TEXT_DIR="./dataset/instructions"
 if [ "$BOX_TYPE" == "hades" ]; then
     SAVE_DIR="./dataset/white_box"

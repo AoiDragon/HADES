@@ -61,10 +61,15 @@ Now you can use built HADES to evaluate MLLMs and evaluate their safaty alignmen
 bash run_evaluation.sh abstract gpt4v hades
 ```
 
-The script will report the Attack Success Rate (ASR) associated with GPT-4V with our HADES. 
+The script will report the Attack Success Rate (ASR) associated with GPT-4V with our HADES in abstract settings. 
 
+```Shell
+bash run_evaluation.sh abstract gpt4v black_box
+```
 
-Furthermore, the `run_evaluation.sh` script can be also employed to calculate the ASR of HADES on other models such as LLaVA and Gemini.
+And you can run the script to obtain the ASR on GPT-4V with our HADES without a white-box attack.
+
+Furthermore, the `run_evaluation.sh` script can be also employed to calculate the ASR of HADES on other models such as LLaVA and Gemini. 
 
 ## Related Projects
 
