@@ -79,7 +79,7 @@ def parse_arguments() -> argparse.Namespace:
     parser.add_argument(
         '--model_path',
         type=str,
-        default='./checkpoint/beaver',
+        default='./checkpoint/beaver-7b',
         help='Path to the model.',
     )
     parser.add_argument(
@@ -89,7 +89,6 @@ def parse_arguments() -> argparse.Namespace:
         help='The maximum sequence length of the model.',
     )
     return parser.parse_args()
-
 
 def main() -> None:
     args = parse_arguments()

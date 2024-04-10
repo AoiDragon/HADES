@@ -3,12 +3,12 @@
 INPUT_DIR='./eval/evaluate/results/gen_results/{}/black_box/abstract'
 IMAGE_SOURCE_DIR='./dataset/black_box/images'
 IMAGE_DEST_DIR='./dataset/white_box/init_images'
-SCENARIO='Violence'  # This is the default scenario
+SCENARIO='Violence' 
 ATTACK_MODEL='llava-15-7b'
 
 MODEL_PATH="./checkpoint/llava-1.5-7b"
 MODEL_BASE=None
-SAVE_DIR="./dataset/white_box"
+SAVE_DIR="./dataset/white_box/images"
 INPUT_PATH="./dataset/instructions"
 IMAGE_DIR="./dataset/black_box/images"
 MODE='abstract'

@@ -23,11 +23,12 @@ In this paper, we study the harmlessness alignment problem of multimodal large l
 
 ## Prepare
 
-HADES is based on LLaVA 1.5 and PixArt. You can download the corresponding weights from the following huggingface space via clone the repository using git-lfs.
+HADES is based on LLaVA 1.5, PixArt, and the evaluation of HADES is based on Beaver-7b. You can download the corresponding weights from the following Huggingface space by cloning the repository using git-lfs.
 
-|                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |
-|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|
-| [Download](https://huggingface.co/liuhaotian/llava-v1.5-7b) | [Download](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS) |
+|                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |                          Evaluation Base: Beaver-7b Weights                          |
+|:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
+| [Download](https://huggingface.co/liuhaotian/llava-v1.5-7b) | [Download](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS) | [Download](https://huggingface.co/PKU-Alignment/beaver-7b-v1.0) |
+
 
 Then you can copy the weights folder to `./checkpoint`
 
@@ -51,6 +52,19 @@ bash ./amplifying_toxic.sh
 ```Shell
 bash ./white_box.sh
 ```
+
+## Evaluation
+
+Now you can use built HADES to evaluate MLLMs and evaluate their safaty alignment by running:
+
+```Shell
+bash run_evaluation.sh abstract gpt4v hades
+```
+
+The script will report the Attack Success Rate (ASR) associated with GPT-4V with our HADES. 
+
+
+Furthermore, the `run_evaluation.sh` script can be also employed to calculate the ASR of HADES on other models such as LLaVA and Gemini.
 
 ## Related Projects
 
