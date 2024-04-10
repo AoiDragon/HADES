@@ -19,7 +19,7 @@ In this paper, we study the harmlessness alignment problem of multimodal large l
 ![model_figure](./figs/hades.jpg)
 
 ## Update
-- [4/1] We release the code and datasets of HADES.
+- [4/10] We release the code and datasets of HADES.
 
 ## Prepare
 
