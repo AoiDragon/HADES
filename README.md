@@ -19,7 +19,8 @@ In this paper, we study the harmlessness alignment problem of multimodal large l
 ![model_figure](./figs/hades.jpg)
 
 ## Update
-- [4/10] We release the code and datasets of HADES.
+- [5/5] We release the original HADES-generated-data in our paper.
+- [4/10] We release the code of HADES.
 
 ## Dataset
 
@@ -68,7 +69,7 @@ bash ./white_box.sh
 
 ## Evaluation
 
-Now you can use the collected images and text to evaluate the safaty alignment of MLLMs by running:
+Now you can use the collected images and text to evaluate the safaty alignment of MLLMs by running the following script. The 'abstract' parameter refers to the 'text-to-image pointer' setting in our paper.
 
 ```Shell
 bash run_evaluation.sh abstract gpt4v hades
