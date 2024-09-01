@@ -19,6 +19,8 @@ In this paper, we study the harmlessness alignment problem of multimodal large l
 ![model_figure](./figs/hades.jpg)
 
 ## Update
+- [8/12] 🎉🎉🎉 HADES is selected as an oral paper of ECCV 2024!
+- [7/4] 🎉🎉🎉 HADES is accepted by ECCV 2024!
 - [5/5] We release the original HADES-generated-data in our paper.
 - [4/10] We release the code of HADES.
 
