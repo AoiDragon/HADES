@@ -19,6 +19,7 @@ In this paper, we study the harmlessness alignment problem of multimodal large l
 ![model_figure](./figs/hades.jpg)
 
 ## Update
+- [9/26] 🤗 We release HADES benchmark on Hugging Face. Feel free to evaluate your MLLMs by visiting [https://huggingface.co/datasets/Monosail/HADES](https://huggingface.co/datasets/Monosail/HADES)
 - [8/12] 🎉🎉🎉 HADES is selected as an oral paper of ECCV 2024!
 - [7/4] 🎉🎉🎉 HADES is accepted by ECCV 2024!
 - [5/5] We release the original HADES-generated-data in our paper.
