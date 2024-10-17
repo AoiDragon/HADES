@@ -44,7 +44,7 @@ HADES is based on LLaVA 1.5, PixArt, and the evaluation of HADES is based on Bea
 
 |                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |                          Evaluation Base: Beaver-7b Weights                          |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
-| [Download](https://huggingface.co/liuhaotian/llava-v1.5-7b) | [Download](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS) | [Download](https://huggingface.co/PKU-Alignment/beaver-7b-v1.0) |
+| [Download](https://huggingface.co/liuhaotian/llava-v1.5-7b) | [Download](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS) | [Download](https://huggingface.co/PKU-Alignment/beaver-dam-7b) |
 
 
 Then you can copy the weights folder to `./checkpoint`
