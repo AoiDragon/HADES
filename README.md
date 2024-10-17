@@ -42,7 +42,7 @@ While we release this dataset for research purposes, we emphasize the importance
 ## Preparation
 HADES is based on LLaVA 1.5, PixArt, and the evaluation of HADES is based on Beaver-7b. You can download the corresponding weights from the following Huggingface space by cloning the repository using git-lfs.
 
-|                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |                          Evaluation Base: Beaver-7b Weights                          |
+|                              HADES Base: LLaVA 1.5 Weights                             |                            HADES Base: PixArt XL 2-1024-MS Weights                            |                          Evaluation Base: Beaver-dam-7b Weights                          |
 |:--------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------:|:---------------------------------------------------------------:|
 | [Download](https://huggingface.co/liuhaotian/llava-v1.5-7b) | [Download](https://huggingface.co/PixArt-alpha/PixArt-XL-2-1024-MS) | [Download](https://huggingface.co/PKU-Alignment/beaver-dam-7b) |
 
